@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Ampliar imágenes",
+    "version": "1.0",
+    "description": "Amplía imágenes al pasar el ratón por encima By: ccc",
+    "permissions": [],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }

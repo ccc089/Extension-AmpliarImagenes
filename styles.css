@@ -1,0 +1,13 @@
+.hover-zoom {
+    position: fixed;
+    border: 3px solid black;
+    background: white;
+    z-index: 9999;
+    max-width: 90vw; /* Ocupa hasta el 90% del ancho de la ventana */
+    max-height: 90vh; /* Ocupa hasta el 90% del alto de la ventana */
+    width: auto;
+    height: auto;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+    pointer-events: none; /* No bloquea otros elementos interactivos */
+    object-fit: contain;
+}
